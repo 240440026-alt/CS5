@@ -45,4 +45,6 @@ div.test em {
 
 .box-3 a:link {
     color: yellow;
+    text-decoration: none;
+    text-decoration: underline;
 }
