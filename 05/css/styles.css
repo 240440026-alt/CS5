@@ -55,7 +55,7 @@ p.box-3 a:visited {
 }
 
 li.important {
-    color: #80FF00;
+    color: green;
 }
 
 li:nth-child(even) {
