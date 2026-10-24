@@ -58,6 +58,6 @@ li.important {
     color: #80FF00;
 }
 
-ul:nth-child(even) {
+li:nth-child(even) {
     background-color: #FF0080;
 }
