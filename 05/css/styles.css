@@ -42,3 +42,7 @@ em.test  {
 div.test em {
     color: #FF0000;
 }
+
+.box-3 a:link {
+    color: yellow;
+}
