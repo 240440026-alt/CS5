@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8"> 
+  <title>計算機科学5 第5回</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>  
+  <h1>計算機科学5 第5回</h1>
+
+  <h2>ボックスの種類</h2>
+
+  <h3>ブロックボックス</h3>
+  <div class="block-box">
+    ブロックボックス1
+  </div>
+  <p class="block-box">
+    ブロックボックス2
+  </p>
+  <a href="https://www.meijo-u.ac.jp" class="block-box">名城大学</a>
+
+  <h3>インラインボックス</h3>
+  <div class="inline-box">
+    インラインボックス1
+  </div>
+  <p class="inline-box">
+    インラインボックス2
+  </p>
+  <a href="https://www.meijo-u.ac.jp" class="inline-box">名城大学</a>
+  
+  <h3>inline-block</h3>
+  <div class="inline-block-box">
+    inline-block1
+  </div>
+  <p class="inline-block-box">
+    inline-block2
+  </p>
+  <a href="https://www.meijo-u.ac.jp" class="inline-block-box">名城大学</a>
+  
+
+  <h2>ボックスの寸法</h2>
+
+  <div class="box-1">
+    あいうえおかきくけこ
+  </div>
+  
+  さしすせそ<span class="box-2">たちつてと</span>なにぬねの
+
+  <h2>さまざまな例</h2>
+
+  <h3>セレクタの結合と親子関係</h3>
+  ここは<em class="test">灰色</em>になる.
+  <div class="test">
+    ここは<em>赤色</em>になる.
+  </div>
+  ここは<em>黒色</em>のまま.
+
+  <h3>リンクに関する疑似セレクタ</h3>
+  <p class="box-3">
+    ここだけ<a href="https://www.meijo-u.ac.jp">リンク</a>の色が違う.
+  </p>
+
+  <h3>セレクタの結合</h3>
+  <ul>
+    <li>普通</li>
+    <li class="important">重要！</li>
+    <li>普通</li>
+    <li>普通</li>
+    <li class="important">重要！</li>
+  </ul>
+
+</body>
+</html>
