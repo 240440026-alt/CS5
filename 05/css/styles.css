@@ -35,10 +35,10 @@
     box-sizing: border-box;
 }
 
-.em.test em {
+em.test  {
     color: #CCCCCC;
 }
 
-.test em {
+div.test em {
     color: #FF0000;
 }
