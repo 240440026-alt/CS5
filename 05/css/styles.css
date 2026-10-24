@@ -44,7 +44,12 @@ div.test em {
 }
 
 p.box-3 a:link {
-    color: yellow;
+    color: #00FFFF;
+    text-decoration: none;
+    text-decoration: underline;
+}
+p.box-3 a:visited {
+    color: #0000FF;
     text-decoration: none;
     text-decoration: underline;
 }
@@ -52,3 +57,4 @@ p.box-3 a:link {
 li.important {
     color: red;
 }
+
