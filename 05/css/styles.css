@@ -43,7 +43,7 @@ div.test em {
     color: #FF0000;
 }
 
-.box-3 a:link {
+p.box-3 a:link {
     color: yellow;
     text-decoration: none;
     text-decoration: underline;
